@@ -6,6 +6,10 @@ Steps to run the application :
   4. Since We are using h2 inmemory database. which can be accessed http://localhost:8081/h2
   5. Connect to the database.
   6. Execute the following queries in the h2 db
+  
+  
+  
+  
      insert into flight values(123, 5500, 'BOM',TIMESTAMP '2022-01-20', 'AP');
      insert into flight_seats values('1a', false, 500, 123);
      insert into flight_seats values('1b', false, 1000,  123);
